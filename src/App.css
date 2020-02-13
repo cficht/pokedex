@@ -37,34 +37,20 @@
   }
 }
 
-#app-div {
-  border: 1px solid black;
-
-}
-
 #header-div {
-  border: 1px solid black;
   height: 200px;
-
-}
-
-#list-div{ 
-  border: 1px solid black;
+  background-color: #3B4CCA;
 
 }
 
 #list-top {
-  border: 1px solid black;
-  height: 100px;
-
-}
-
-#list-bottom {
-  border: 1px solid black;
+  height: 50px;
+  background-color: #FFDE00;
 }
 
 ul {
   list-style-type: none;
+  padding-inline-start: 0px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -72,12 +58,18 @@ ul {
 
 .poke-item {
   border: 1px solid black;
-  list-style-type: none;
-  width: 300px;
+  border-radius: 5px;
+  width: 250px;
   float: left;
   text-align: center;
+  margin: 10px;
+  background-color: #C4D6D9;
 }
 
 .poke-item img {
-  width: 200px;
+  width: 150px;
+}
+
+.name-case {
+  text-transform: capitalize;
 }

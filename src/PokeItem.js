@@ -6,12 +6,11 @@ export default class PokeItem extends Component {
     render() {
         return(
             <li className="poke-item">
-                <h2>{this.props.pokemon.pokemon}</h2>
+                <h2><span className="name-case">{this.props.pokemon.pokemon}</span></h2>
                 <img src={this.props.pokemon.url_image} alt=""></img>
-                <h5>{this.props.pokemon.type_1}</h5>
-                <h5>{this.props.pokemon.type_2}</h5>
-                <h5>{this.props.pokemon.attack}</h5>
-                <h5>{this.props.pokemon.defense}</h5>
+                <h5>Type: <span className="name-case">{this.props.pokemon.type_1}</span></h5>
+                <h5>Attack: {this.props.pokemon.attack}</h5>
+                <h5>Defense: {this.props.pokemon.defense}</h5>
             </li>
         );
     }
