@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+#app-div {
+  border: 1px solid black;
+
+}
+
+#header-div {
+  border: 1px solid black;
+  height: 200px;
+
+}
+
+#list-div{ 
+  border: 1px solid black;
+
+}
+
+#list-top {
+  border: 1px solid black;
+  height: 100px;
+
+}
+
+#list-bottom {
+  border: 1px solid black;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.poke-item {
+  border: 1px solid black;
+  list-style-type: none;
+  width: 300px;
+  float: left;
+  text-align: center;
+}
+
+.poke-item img {
+  width: 200px;
+}
