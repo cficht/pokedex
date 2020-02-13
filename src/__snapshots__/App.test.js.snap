@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App.js correctly 1`] = `
+<div
+  id="app-div"
+>
+  <div
+    id="header-div"
+  >
+    HEADER
+  </div>
+  <div
+    id="list-div"
+  >
+    <div
+      id="list-top"
+    />
+    <div
+      id="list-bottom"
+    >
+      <ul />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders PokeList.js correctly 1`] = `
+<div
+  id="list-div"
+>
+  <div
+    id="list-top"
+  />
+  <div
+    id="list-bottom"
+  >
+    <ul />
+  </div>
+</div>
+`;

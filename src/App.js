@@ -8,7 +8,7 @@ export default class App extends React.Component {
   state = { pokeDex: [] }
 
   async componentDidMount() {
-    const pokeOnline = await request.get('https://alchemy-pokedex.herokuapp.com/api/pokedex?perPage=150');
+    const pokeOnline = await request.get('https://alchemy-pokedex.herokuapp.com/api/pokedex');
     this.setState({ pokeDex: pokeOnline.body.results })
   }
 

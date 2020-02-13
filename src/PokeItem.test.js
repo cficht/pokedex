@@ -1,10 +1,10 @@
 import React from 'react';
-import App from './App';
+import PokeItem from './PokeItem';
 import renderer from "react-test-renderer";
 
-test('renders App.js correctly', () => {
+test('renders PokeItem.js correctly', () => {
   const tree = renderer
-  .create(<App />)
+  .create(<PokeItem pokemon={[]} />)
   .toJSON();
   expect(tree).toMatchSnapshot();
 });

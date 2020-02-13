@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import data from './data.js';
+// import data from './data.js';
 
 export default class PokeItem extends Component {
     render() {
