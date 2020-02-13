@@ -4,6 +4,8 @@ exports[`renders Header.js correctly 1`] = `
 <div
   id="header-div"
 >
-  HEADER
+  <img
+    alt=""
+  />
 </div>
 `;

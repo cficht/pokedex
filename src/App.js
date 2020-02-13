@@ -15,7 +15,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div id="app-div">
-        <Header />
+        <Header logo={"pokedexlogo.png"} />
         <PokeList pokedex={this.state.pokeDex} />
       </div>
     );

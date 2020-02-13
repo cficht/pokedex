@@ -12,17 +12,23 @@ exports[`renders PokeItem.js correctly 1`] = `
   <img
     alt=""
   />
-  <h5>
+  <h5
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+  >
     Type: 
     <span
       className="name-case"
     />
   </h5>
-  <h5>
+  <h6>
     Attack: 
-  </h5>
-  <h5>
+  </h6>
+  <h6>
     Defense: 
-  </h5>
+  </h6>
 </li>
 `;

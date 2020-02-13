@@ -2,12 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 import PokeItem from './PokeItem.js'
 import shortid from 'shortid';
-// import data from './data.js';
 
 export default class PokeList extends Component {
     render() {
         const pokeNode = this.props.pokedex.map(pokemon => <PokeItem pokemon={pokemon} key={shortid.generate()}></PokeItem>)
-        return(
+        return (
             <div id="list-div">
                 <div id="list-top">
                 </div>

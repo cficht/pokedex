@@ -40,7 +40,13 @@
 #header-div {
   height: 200px;
   background-color: #3B4CCA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+#header-div img {
+  width: 40%;
 }
 
 #list-top {
@@ -59,15 +65,32 @@ ul {
 .poke-item {
   border: 1px solid black;
   border-radius: 5px;
-  width: 250px;
+  width: 275px;
   float: left;
   text-align: center;
   margin: 10px;
   background-color: #C4D6D9;
 }
 
+.poke-item h1 {
+  font-weight: 800;
+}
+
 .poke-item img {
-  width: 150px;
+  width: 175px;
+  margin: 10px;
+}
+
+.poke-item h5 {
+  width: 40%;
+  font-weight: 800;
+  margin: 0 auto;
+}
+
+.poke-item h6 {
+  font-size: 12px;
+  margin-block-start: 15px;
+  margin-block-end: 15px;
 }
 
 .name-case {
