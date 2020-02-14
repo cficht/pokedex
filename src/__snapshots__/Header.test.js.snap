@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Header.js correctly 1`] = `
+<div
+  id="header-div"
+>
+  <img
+    alt=""
+  />
+</div>
+`;

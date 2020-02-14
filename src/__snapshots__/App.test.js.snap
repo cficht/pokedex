@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App.js correctly 1`] = `
+<div
+  id="app-div"
+>
+  <div
+    id="header-div"
+  >
+    <img
+      alt=""
+      src="pokedexlogo.png"
+    />
+  </div>
+  <div
+    id="list-div"
+  >
+    <div
+      id="list-top"
+    >
+      <div
+        id="search"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            onChange={[Function]}
+            value=""
+          />
+          <button>
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+    <div
+      id="list-bottom"
+    >
+      <ul />
+      <div
+        id="list-foot"
+      >
+        <div
+          className="paging"
+        >
+          <button
+            disabled={true}
+            onClick={[Function]}
+          >
+             LAST 
+          </button>
+          <button
+            disabled={false}
+            onClick={[Function]}
+          >
+             NEXT 
+          </button>
+          <h5>
+            Page 
+            1
+            /
+            41
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

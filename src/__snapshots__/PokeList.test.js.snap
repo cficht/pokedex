@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders PokeList.js correctly 1`] = `
+<div
+  id="list-div"
+>
+  <div
+    id="list-top"
+  >
+    <div
+      id="search"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          onChange={[Function]}
+          value=""
+        />
+        <button>
+          Search
+        </button>
+      </form>
+    </div>
+  </div>
+  <div
+    id="list-bottom"
+  >
+    <ul />
+    <div
+      id="list-foot"
+    >
+      <h5
+        className="paging"
+      >
+        No results! :(
+      </h5>
+    </div>
+  </div>
+</div>
+`;
