@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 
 export default class Search extends Component {
-
     state = {
         searchName: ''
     }
-
 
     handleForm = event => {
         if(!this.state.searchName){
@@ -16,13 +14,10 @@ export default class Search extends Component {
 
         const queryParam = new URLSearchParams();
         queryParam.set('pokemon', this.state.searchName);
-
+        queryParam.set("page", 1);
+        
         window.location.hash = queryParam.toString();
     }
-
-    
-
-
 
     render() {
         return(
@@ -32,9 +27,7 @@ export default class Search extends Component {
                 onChange={e => this.setState({ searchName: e.target.value})} 
                 value={this.state.searchName}/>
                 <button>Search</button>
-
-                </form>
-                
+                </form>           
             </div>
         );
     }

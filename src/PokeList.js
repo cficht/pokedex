@@ -3,6 +3,7 @@ import './App.css';
 import PokeItem from './PokeItem.js'
 import shortid from 'shortid';
 import Search from './Search';
+import Paging from './Paging'
 
 export default class PokeList extends Component {
     render() {
@@ -16,6 +17,7 @@ export default class PokeList extends Component {
                     <ul>
                         {pokeNode}
                     </ul>
+                    <Paging totalPokemon={this.props.totalPokemon} totalPage={this.props.totalPage}/>
                 </div>
             </div>
         );
