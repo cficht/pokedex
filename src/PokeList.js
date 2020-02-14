@@ -17,7 +17,9 @@ export default class PokeList extends Component {
                     <ul>
                         {pokeNode}
                     </ul>
-                    <Paging totalPokemon={this.props.totalPokemon} totalPage={this.props.totalPage}/>
+                    <div id="list-foot">
+                        <Paging totalPokemon={this.props.totalPokemon} totalPage={this.props.totalPage} />
+                    </div>
                 </div>
             </div>
         );

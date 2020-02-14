@@ -50,8 +50,11 @@
 }
 
 #list-top {
-  height: 50px;
+  height: 75px;
   background-color: #FFDE00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
@@ -95,4 +98,39 @@ ul {
 
 .name-case {
   text-transform: capitalize;
+}
+
+#search {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 275px;
+  text-align: center;
+  margin: 10px;
+  background-color: #C4D6D9;
+}
+
+#search input {
+  margin: 10px;
+}
+
+#list-foot{
+  display: flex;
+  justify-content: center;
+}
+
+.paging {
+  clear: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 275px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: #C4D6D9;
+}
+
+.paging h5 {
+  font-weight: 800;
+  margin-block-start: 15px;
+  margin-block-end: 15px;
 }

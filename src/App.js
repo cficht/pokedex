@@ -18,6 +18,7 @@ export default class App extends React.Component {
     const searchToLoad = `${URL}?${searchQuery}`;
     
     const newPokemon = await request.get(searchToLoad);
+
     this.setState({ pokeDex: newPokemon.body.results});
     this.setState({ totalPokemon: newPokemon.body.count});
     const newTotalPage = Math.ceil(this.state.totalPokemon/this.state.perPage);
@@ -26,6 +27,7 @@ export default class App extends React.Component {
 
   async componentDidMount() {
     const pokeOnline = await request.get('https://alchemy-pokedex.herokuapp.com/api/pokedex');
+    
     this.setState({ pokeDex: pokeOnline.body.results });
     this.setState({ totalPokemon: pokeOnline.body.count});
 

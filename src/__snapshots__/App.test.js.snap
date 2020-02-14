@@ -17,11 +17,53 @@ exports[`renders App.js correctly 1`] = `
   >
     <div
       id="list-top"
-    />
+    >
+      <div
+        id="search"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            onChange={[Function]}
+            value=""
+          />
+          <button>
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
     <div
       id="list-bottom"
     >
       <ul />
+      <div
+        id="list-foot"
+      >
+        <div
+          className="paging"
+        >
+          <button
+            disabled={true}
+            onClick={[Function]}
+          >
+             LAST 
+          </button>
+          <button
+            disabled={false}
+            onClick={[Function]}
+          >
+             NEXT 
+          </button>
+          <h5>
+            Page 
+            1
+            /
+            41
+          </h5>
+        </div>
+      </div>
     </div>
   </div>
 </div>

@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 
 export default class Search extends Component {
-    state = {
-        searchName: ''
-    }
+    state = { searchName: '' }
 
     handleForm = event => {
         if(!this.state.searchName){
